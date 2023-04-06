@@ -14,9 +14,9 @@ namespace HelloWorld
         {
             Console.WriteLine("Human can speak");
         }
-        public void HumanDetails(String humanname, int age, float weight, float height)
+        public void HumanDetails(String humanname, float humanHeight,float humanWeight,int age)
         {
-            Console.WriteLine("HumanDetails:{0},{1},{2},{3}", humanname, age, weight, height);
+            Console.WriteLine("HumanDetails:{0},{1},{2},{3}", humanname, humanHeight,humanWeight,age);
         }
     }
 }
